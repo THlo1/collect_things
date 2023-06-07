@@ -1,6 +1,8 @@
-#author:Fla5hback
-#依赖安装：pip install tkinter requests scapy
-#功能：一个简单的Tkinter界面，允许用户输入URL并发送请求,接收请求的html；后续可使用Scapy库修改HTTP和HTTPS数据包，并使用Burp API将修改后的数据包传递给Burp Suite
+# file name: walk_to_excel.py
+# writing time: 2023-06-03
+# author:Fla5hback
+# 依赖安装：pip install tkinter requests scapy
+# 功能：一个简单的Tkinter界面，允许用户输入URL并发送请求,接收请求的html；后续可使用Scapy库修改HTTP和HTTPS数据包，并使用Burp API将修改后的数据包传递给Burp Suite
 
 import tkinter as tk
 from tkinter import ttk
